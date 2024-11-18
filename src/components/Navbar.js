@@ -4,7 +4,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white p-12 flex justify-between items-center">
+    <nav className="bg-white p-4 sm:px-[10vw] px-2 md:p-12 flex justify-between items-center">
       <div className="text-gray-800 text-xl font-bold uppercase">
         <div>Ambassadors of Christ</div>
         <div>Fellowship Church</div>
@@ -16,11 +16,11 @@ function Navbar() {
           </svg>
         </button>
       </div>
-      <div className={`md:flex space-x-16 ${isOpen ? 'block' : 'hidden'} md:block`}>
-        <a href="#home" className="block mt-4 tracking-widest md:inline-block md:mt-0 text-gray-800 hover:underline uppercase">Home</a>
-        <a href="#about" className="block mt-4 tracking-widest md:inline-block md:mt-0 text-gray-800 hover:underline uppercase">About</a>
-        <a href="#explore" className="block mt-4 tracking-widest md:inline-block md:mt-0 text-gray-800 hover:underline uppercase">Explore</a>
-        <a href="#media" className="block mt-4 tracking-widest md:inline-block md:mt-0 text-gray-800 hover:underline uppercase">Media</a>
+      <div className={`md:flex space-x-12 ${isOpen ? 'block' : 'hidden'} md:block`}>
+        <a href="#home" className="block mt-4 md:mt-0 text-gray-800 hover:underline uppercase">Home</a>
+        <a href="#about" className="block mt-4 md:mt-0 text-gray-800 hover:underline uppercase">About</a>
+        <a href="#explore" className="block mt-4 md:mt-0 text-gray-800 hover:underline uppercase">Explore</a>
+        <a href="#media" className="block mt-4 md:mt-0 text-gray-800 hover:underline uppercase">Media</a>
       </div>
     </nav>
   );

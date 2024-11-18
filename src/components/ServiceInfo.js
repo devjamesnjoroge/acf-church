@@ -2,7 +2,7 @@ import React from 'react';
 
 function ServiceInfo() {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center px-[10vw] py-12 gap-8">
+    <div className="flex flex-col md:flex-row justify-between items-center sm:px-[10vw] px-2 py-12 gap-8">
       <div className="w-full md:w-1/2">
         <h2 className="text-3xl md:text-4xl font-bold uppercase">Service Information</h2>
         <div className="mt-6">

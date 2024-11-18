@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Cards() {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center px-[7vw] py-12 gap-4">
+    <div className="flex flex-col md:flex-row justify-between items-center sm:px-[10vw] px-2 py-12 gap-4">
       <div className="relative w-full md:w-1/2 h-[40vh] group">
         <img className="absolute top-0 left-0 w-full h-full object-cover" src="/a6.jpeg" alt="Events" />
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
