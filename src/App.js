@@ -5,20 +5,28 @@ import Hero from './components/Hero';
 import Cards from './components/Cards';
 import ServiceInfo from './components/ServiceInfo';
 import Footer from './components/Footer';
+import Events from './components/Events';
+import SundayService from './components/SundayService';
+import Youth from './components/Youth';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
-        <Hero />
-        <Cards />
-        <ServiceInfo />
-        <Footer />
         <Routes>
-          <Route path="/events" element={<div>Events Page</div>} />
-          <Route path="/youth" element={<div>Youth Page</div>} />
+          <Route path="/" element={
+            <>
+              <Hero />
+              <Cards />
+              <ServiceInfo />
+            </>
+          } />
+          <Route path="/events" element={<Events />} />
+          <Route path="/sunday-service" element={<SundayService />} />
+          <Route path="/youth" element={<Youth />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

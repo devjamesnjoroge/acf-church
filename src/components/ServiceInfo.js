@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function ServiceInfo() {
   return (
@@ -6,7 +7,11 @@ function ServiceInfo() {
       <div className="w-full md:w-1/2">
         <h2 className="text-3xl md:text-4xl font-bold uppercase">Service Information</h2>
         <div className="mt-6">
-          <button className="px-6 py-2 bg-white border border-gray-800 text-gray-800 uppercase font-semibold hover:bg-gray-100">More Info</button>
+          <Link to="/sunday-service">
+            <button className="px-6 py-2 bg-white border border-gray-800 text-gray-800 uppercase font-semibold hover:bg-gray-100">
+              More Info
+            </button>
+          </Link>
         </div>
       </div>
       <div className="relative w-full md:w-1/2 h-[40vh]">
