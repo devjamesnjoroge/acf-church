@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Events from './components/Events';
 import SundayService from './components/SundayService';
 import Youth from './components/Youth';
+import Media from './components/Media';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/sunday-service" element={<SundayService />} />
           <Route path="/youth" element={<Youth />} />
+          <Route path="/media" element={<Media />} />
         </Routes>
         <Footer />
       </div>

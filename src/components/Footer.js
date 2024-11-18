@@ -8,9 +8,9 @@ function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h2 className="text-2xl font-bold uppercase">Ambassadors of Christ Fellowship Church</h2>
-          <p className="mt-2">Nairobi, P.O BOX, 551-10600</p>
-          <p className="mt-2">Phone: (070) 365-6466</p>
-          <p className="mt-2">Email: info@ambassadorsofchristfellowship</p>
+          <p className="mt-2">123 Church Street, City, State, 12345</p>
+          <p className="mt-2">Phone: (123) 456-7890</p>
+          <p className="mt-2">Email: info@church.com</p>
         </div>
         <div className="flex flex-col items-center md:items-start">
           <nav className="mb-4">
