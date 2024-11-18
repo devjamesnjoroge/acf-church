@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Cards from './components/Cards';
 import ServiceInfo from './components/ServiceInfo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Cards />
         <ServiceInfo />
+        <Footer />
         <Routes>
           <Route path="/events" element={<div>Events Page</div>} />
           <Route path="/youth" element={<div>Youth Page</div>} />
