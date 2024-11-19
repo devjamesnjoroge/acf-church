@@ -22,7 +22,7 @@ function Footer() {
             </ul>
           </nav>
           <div className="flex space-x-4">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+            <a href="https://facebook.com/groups/2185686638394654/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
               <FaFacebook className="w-6 h-6" />
             </a>
             <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
