@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaTiktok } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -16,26 +16,14 @@ function Footer() {
           <nav className="mb-4">
             <ul className="flex space-x-4">
               <li><Link to="/" className="hover:underline">Home</Link></li>
-              <li><Link to="/about" className="hover:underline">About</Link></li>
-              <li><Link to="/explore" className="hover:underline">Explore</Link></li>
-              <li><Link to="/media" className="hover:underline">Media</Link></li>
             </ul>
           </nav>
           <div className="flex space-x-4">
-            <a href="https://facebook.com/groups/2185686638394654/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-              <FaFacebook className="w-6 h-6" />
-            </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-              <FaTwitter className="w-6 h-6" />
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-              <FaInstagram className="w-6 h-6" />
-            </a>
+            <a href="https://facebook.com/groups/2185686638394654/" className="hover:text-gray-400"><FaFacebook size={24} /></a>
+            <a href="https://www.twitter.com" className="hover:text-gray-400"><FaTwitter size={24} /></a>
+            <a href="https://www.tiktok.com/@ambassador0035?_t=8rWAcG1wcae&_r=1" className="hover:text-gray-400"><FaTiktok size={24} /></a>
           </div>
         </div>
-      </div>
-      <div className="mt-8 text-center md:text-left">
-        <p>&copy; {new Date().getFullYear()} Ambassadors of Christ Fellowship Church. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -17,7 +17,7 @@ const pastors = [
   { id: 7, src: '/b7.jpg', alt: 'Pastor Samuel Roro', name: 'Pastor Samuel Roro', parish: 'Central Parish' },
 ];
 
-function Media() {
+function About() {
   return (
     <div className="px-[10vw] py-12">
       <h1 className="text-4xl font-bold uppercase mb-8">Church Leaders</h1>
@@ -47,4 +47,4 @@ function Media() {
   );
 }
 
-export default Media;
+export default About;
