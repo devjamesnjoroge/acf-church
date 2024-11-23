@@ -23,7 +23,7 @@ function Youth() {
       <div>
         <h2 className="text-2xl font-bold">Social Media</h2>
         <div className="flex space-x-4 mt-2">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-400">
+          <a href="https://www.facebook.com/groups/2185686638394654/" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-400">
             <FaFacebook className="w-6 h-6" />
           </a>
         </div>
