@@ -13,7 +13,7 @@ function Youth() {
         <ul className="list-disc list-inside mt-2">
           <li>10th Nov - Youth Sunday</li>
           <li>17th Nov - Youth Leader Meeting</li>
-          <li>10th - 14th Dec - Youth Convection</li>
+          <li>12th - 15th Dec - Youth Convection</li>
         </ul>
       </div>
       <div className="mb-8">
