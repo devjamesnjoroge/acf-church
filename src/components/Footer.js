@@ -8,7 +8,7 @@ function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h2 className="text-2xl font-bold uppercase">Ambassadors of Christ Fellowship Church</h2>
-          <p className="mt-2">Nairobi, P.O BOX, 551-10600</p>
+          <p className="mt-2">Naivasha, P.O BOX, 361-20117</p>
           <p className="mt-2">Phone: (070) 365-6466</p>
           <p className="mt-2">Email: info@ambassadorsofchristfellowship</p>
         </div>

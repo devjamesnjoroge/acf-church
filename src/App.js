@@ -10,6 +10,7 @@ import SundayService from './components/SundayService';
 import Youth from './components/Youth';
 import Media from './components/Media';
 import About from './components/About';
+import Explore from './components/Explore';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             </>
           } />
           <Route path="/events" element={<Events />} />
+          <Route path="/explore" element={<Explore />} />
           <Route path="/sunday-service" element={<SundayService />} />
           <Route path="/youth" element={<Youth />} />
           <Route path="/media" element={<Media />} />
